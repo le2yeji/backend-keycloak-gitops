@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: yyazi/springboot_crud_security_keycloak
+        image: yyazi/springboot_crud_security_keycloak_prd
         #image: springboot_crud_security_keycloak:v1
         imagePullPolicy: Always
         env:
