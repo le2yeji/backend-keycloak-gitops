@@ -20,6 +20,6 @@ spec:
         imagePullPolicy: Always
         env:
           - name: SPRING_PROFILES_ACTIVE
-            value: "local"
+            value: "prd"
         ports:
         - containerPort: 9080
